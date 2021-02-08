@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.launcher;
+package com.havoc.launcher;
 
 import com.android.launcher3.uioverrides.QuickstepLauncher;
 import com.android.systemui.plugins.shared.LauncherOverlayManager;

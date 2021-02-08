@@ -64,7 +64,7 @@ import android.view.ViewTreeObserver;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
-import com.android.internal.util.syberia.SyberiaUtils;
+import com.android.internal.util.custom.Utils;
 import com.android.launcher3.LauncherAppWidgetHost.ProviderChangedListener;
 import com.android.launcher3.accessibility.AccessibleDragListenerAdapter;
 import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
@@ -296,7 +296,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                 new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
             @Override
             public boolean onDoubleTap(MotionEvent event) {
-                SyberiaUtils.switchScreenOff(context);
+                Utils.switchScreenOff(context);
                 return true;
             }
         });

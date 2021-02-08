@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.launcher;
+package com.havoc.launcher;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
